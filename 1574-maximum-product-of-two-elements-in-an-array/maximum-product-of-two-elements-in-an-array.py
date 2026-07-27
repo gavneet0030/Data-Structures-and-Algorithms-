@@ -9,4 +9,4 @@ class Solution:
             elif num > second:
                 second = num
 
-        return (first - 1) * (second - 1)
+        return (first - 1) * (second - 1)    #gavneet 
