@@ -23,8 +23,6 @@ class Solution:
 
                 result[pos1] += result[pos2] // 10
                 result[pos2] %= 10
-
-        # Remove leading zeros
         i = 0
         while i < len(result) and result[i] == 0:
             i += 1
